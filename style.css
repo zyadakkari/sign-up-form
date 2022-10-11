@@ -1,0 +1,186 @@
+@@font-face {
+    font-family: handlee;
+    src: url("./handlee/handlee-regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./img/mauricio-gutierrez-8KQ1Q9Qfygc-unsplash.jpg");
+    background-size: cover;
+    height: 100%
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.logo-container {
+    flex: auto;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    background: #a4988a;
+    opacity: 70%;
+    height: 10%;
+    padding: 5%;
+    margin-top: 20%;
+
+}
+
+img {
+    flex: auto;
+    width: 7%;
+    height: 150%;
+    margin-left: 10%;
+    align-self: center;
+}
+
+h1 {
+    flex: auto;
+    align-self: center;
+    font-family: handlee;
+}
+
+.form {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    min-height: 100vh;
+    font-family: helvetica;
+    font-weight: lighter;
+
+}
+
+.main-text {
+    background-color: #a4988a;
+    padding: 7%;
+    flex: 0 1 auto;
+
+}
+h2 {
+    font-family: helvetica;
+    font-weight: lighter;
+}
+
+.form-section {
+    background-color: white;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+    height: auto;
+}
+
+fieldset {
+    border: 0;
+}
+
+h3 {
+    font-family: helvetica;
+    font-weight: lighter;
+}
+
+input:invalid {
+    border: 1px solid red;
+    border-radius: 2px;
+}
+
+input:required {
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+input:optional {
+    border: 1px solid silver;
+    border-radius: 2px;
+}
+
+.form-first-name {
+    float: left;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.form-last-name {
+    float: left;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+
+}
+
+
+.form-email {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.form-number {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.form-password {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.form-confirm-password {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+
+}
+
+.create-account {
+    background-color: #a4988a;
+    flex: 0 1 auto;
+    padding: 7%;
+    padding-top: auto;
+}
+
+button {
+    background-color: #6f764b;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 25%;
+    height: 80%;
+    color: white;
+}
