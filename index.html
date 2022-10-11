@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Surf Camp</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <div class="logo">
+                <img src="./img/odin-lined.png">
+                <h1>Southern Surf School</h1>
+            </div>
+        </div>
+        <div class="form">
+            <div class="main-text">
+                <h2>Welcome to the Southern Surf School! Our 12 week camps will have you riding the waves in no time. Sign up now to join our next camp!</h2>
+            </div>
+            <div class="form-section">
+                <form id="surf-form" action="/hello.php" method="get">
+                    <fieldset>
+                        <legend><h3>Let's do this!</h3></legend>
+
+                        <div class="form-first-name">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" placeholder="Joe" required>
+                        </div>
+                        <div class="form-last-name">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" id="last-name" placeholder="Bloggs" required>
+                        </div>
+                        <div class="form-email">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" placeholder="joe@example.com" required>
+                        </div>
+                        <div class="form-number">
+                            <label for="number">PHONE NUMBER</label>
+                            <input type="tel" id="number" placeholder="XXX-XXX-XXXX" minlength="10" maxlength="10" pattern="ˆ[0-9]*$">
+                        </div>
+                        <div class="form-password">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" required>
+                        </div>
+                        <div class="form-confirm-password">
+                            <label for="first-name">CONFIRM PASSWORD</label>
+                            <input type="password" id="password" required>
+                        </div>
+
+                    </fieldset>
+                </form>
+            </div>
+            <div class="create-account">
+                <button type="submit" form="surf-form">
+                    Create Account
+                </button>
+                <p>Already have an account? Log in</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+</html>
